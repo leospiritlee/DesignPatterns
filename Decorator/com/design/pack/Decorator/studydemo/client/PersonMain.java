@@ -6,9 +6,6 @@ import com.design.pack.Decorator.studydemo.impl.Tshirt;
 
 public class PersonMain {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		Person person = new Person("test");
@@ -17,9 +14,9 @@ public class PersonMain {
 		
 		Tshirt tshirt = new Tshirt();
 		Shoes shoes = new Shoes();
-		shoes.Decorate(person);
-		tshirt.Decorate(shoes);
-		tshirt.show();
+		tshirt.Decorate(person);
+		shoes.Decorate(tshirt);
+		shoes.show();
 		
 		
 	}

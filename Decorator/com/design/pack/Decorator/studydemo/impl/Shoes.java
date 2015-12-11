@@ -6,8 +6,8 @@ public class Shoes extends Finery {
 
 
 	public void show(){
-		System.out.println("Shoes");
 		super.show();
+		System.out.println("Shoes");
 	}
 	
 }
