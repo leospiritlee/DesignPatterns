@@ -5,6 +5,11 @@ import com.design.pack.Strategy.impl.StrategyA;
 import com.design.pack.Strategy.impl.StrategyB;
 import com.design.pack.Strategy.impl.StrategyC;
 
+/**
+ * 策略服务对外提供客户端
+ * @author leospiritlee
+ *
+ */
 public class ContextStrategyClient {
 
 	private Strategy strategy;
