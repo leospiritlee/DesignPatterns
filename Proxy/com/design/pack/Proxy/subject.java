@@ -1,6 +1,6 @@
 package com.design.pack.Proxy;
 
-public abstract class subject {
+public abstract class Subject {
 
 	public abstract void request();
 	
