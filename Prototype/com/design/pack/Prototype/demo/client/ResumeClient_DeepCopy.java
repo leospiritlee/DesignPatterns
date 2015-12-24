@@ -3,7 +3,7 @@ package com.design.pack.Prototype.demo.client;
 import com.design.pack.Prototype.demo.Resume_DeepCopy;
 
 /**
- * 浅赋值 调用客户端
+ * 深复制 调用客户端
  * @author leospiritlee
  *
  */

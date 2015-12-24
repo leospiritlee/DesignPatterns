@@ -2,6 +2,11 @@ package com.design.pack.Prototype.demo.client;
 
 import com.design.pack.Prototype.demo.Resume;
 
+/**
+ * 原型模式调用客户端
+ * @author leospiritlee
+ *
+ */
 public class ResumeClient {
 
 	
